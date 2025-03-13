@@ -1,180 +1,108 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>CLB Ngoại Khóa THPT Krông Bông</title>
-    <link href="style.css" rel="stylesheet" type="text/css"> <!-- Liên kết với tệp CSS bên ngoài -->
-    <style>
-        body {
-            background-color: #f0f8ff; /* Màu nền xanh nhạt */
-            font-family: Times New Roman, sans-serif; /* Font chữ*/
-            display: flex; /* Sắp xếp theo chiều dọc */
-            flex-direction: column; /* Các phần tử xếp theo trục dọc */
-            min-height: 100vh; /* Trang tối thiểu bằng chiều cao màn hình */
-        }
-
-        .banner {
-            background: url('anh4.jpg') no-repeat center center/cover; /* Ảnh nền căn giữa và phủ kín */
-            height: 490px; /* Chiều cao cố định */
-            text-align: center; /* Căn giữa nội dung */
-            color: white; /* Chữ màu trắng */
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* Đổ bóng chữ giúp dễ đọc hơn */
-            display: flex;
-            justify-content: center; /* Căn giữa ngang */
-            align-items: center; /* Căn giữa dọc */
-        }
-
-        .banner h1 {
-            font-size: 38px; /* Kích thước chữ tiêu đề */
-            background: rgba(0, 0, 0, 0.5); /* Nền đen mờ giúp chữ dễ đọc hơn */
-            padding: 10px 20px; /* Khoảng cách giữa chữ và viền */
-            border-radius: 10px; /* Bo tròn góc */
-        }
-
-        .slogan-container {
-            display: flex; /* Xếp slogan theo hàng ngang */
-            justify-content: space-around; /* Cách đều các slogan */
-            align-items: center; /* Căn giữa theo chiều dọc */
-            text-align: center; /* Căn giữa nội dung chữ */
-            margin: 20px 0; /* Tạo khoảng cách giữa các phần */
-        }
-
-        .slogan {
-            width: 30%; /* Mỗi ô chiếm 30% chiều rộng */
-            padding: 15px;
-            background-color:#33CCff; /* Màu nền vàng */
-            border-radius: 10px; /* Bo góc */
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Hiệu ứng đổ bóng */
-            color: #333; /* Màu chữ xám đậm */
-        }
-
-        .content-section {
-            display: flex; /* Căn chỉnh ảnh và chữ theo hàng ngang */
-            align-items: center; /* Căn giữa theo chiều dọc */
-            gap: 20px; /* Khoảng cách giữa ảnh và nội dung */
-            width: 80%; /* Giới hạn độ rộng, không tràn toàn màn hình */
-            margin: 20px auto; /* Canh giữa nội dung */
-            padding: 20px;
-            background: white; /* Màu nền trắng */
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng giúp nổi bật */
-            border-radius: 10px; /* Bo góc cho đẹp */
-        }
-
-        .cell_img {
-            flex: 1; /* Ảnh chiếm 50% nội dung */
-        }
-
-        .cell_img img {
-            width: 100%; /* Ảnh hiển thị full trong container */
-            height: auto; /* Giữ tỷ lệ khung hình */
-            border-radius: 10px; /* Bo góc ảnh */
-        }
-
-        .cell_img img:hover {
-            transform: scale(1.2); /* Phóng to ảnh khi di chuột */ 
-        }
-
-        .text-content {
-            flex: 1; /* Phần chữ chiếm 50% nội dung */
-            text-align: center; /* Căn giữa nội dung chữ */
-            font-size: 1.2rem; /* Kích thước chữ to hơn */
-        }
-
-        .text-content ul {
-            list-style-position: inside; /* Dấu chấm danh sách nằm trong phần văn bản */
-            padding-left: 0; /* Xóa khoảng trống bên trái */
-            display: inline-block; /* Căn giữa nội dung danh sách */
-            text-align: left; /* Căn trái danh sách */
-        }
-
-        footer {
-            background-color: #222; /* Nền màu đen */
-            color: white; /* Chữ màu trắng */
-            padding: 20px 0; /* Khoảng cách trên dưới */
-            width: 100%; /* Kéo dài toàn trang */
-            text-align: left; /* Căn chữ về bên trái */
-            margin-top: auto; /* Đặt footer ở cuối */
-        }
-    </style>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+<title>CLB THPT Krong Bông</title>
 <body>
-    <header>
-        <div class="banner"> 
-            <h1>Câu Lạc Bộ Ngoại Khóa Trường THPT Krông Bông</h1>
-        </div>
-    </header>
+  <header>
+    <div class="banner">
+      <h1>CÂU LẠC BỘ NGOẠI KHÓA TRƯỜNG TRUNG HỌC PHỔ THÔNG KRONG BÔNG</h1>
+    </div>
+    <div class="slogan">
+      <div class="row">
+        <div class="block_3"><h2>NĂNG ĐỘNG</h2><p>HOẠT ĐỘNG NĂNG NỔ - HIỆU QUẢ</p></div>
+        <div class="block_3"><h2>ĐAM MÊ</h2><p>CHÁY HẾT MÌNH TRONG CÁC CUỘC CHƠI</p></div>
+        <div class="block_3"><h2>TỎA SÁNG</h2><p>GIÀNH GIẢI THƯỞNG CAO NHẤT</p></div>
+      </div>
+    </div>
+  </header>
 
-    <div class="slogan-container">
-        <div class="slogan">
-            <h2>Năng Động</h2>
-            <p>Hoạt động năng nổ và hiệu quả</p>
-        </div>
-        <div class="slogan">
-            <h2>Đam Mê</h2>
-            <p>Cháy hết mình với các cuộc chơi</p>
-        </div>
-        <div class="slogan">
-            <h2>Tỏa Sáng</h2>
-            <p>Giành giải thưởng cao nhất</p>
+  <!-- Phần "Học siêu - Chơi đỉnh" -->
+  <div class="wrapper">
+	<div>
+	  <div class="cell_text">
+		<h3>Học siêu - Chơi đỉnh</h3>
+		<p>Các thành tích đạt được</p>
+	  </div>
+	  <ul>
+		<li>🏅 03 HCV Bơi lội</li>
+		<li>🥇 02 HCV, 🥈 06 HCB và 🥉 05 HCĐ Võ Thuật</li>
+		<li>⚽ 01 giải ba môn Bóng đá nam</li>
+		<li>🥈 01 giải nhì Hội thi biểu diễn âm nhạc</li>
+	  </ul>
+	</div>
+	<div class="container">
+		<div class="cell_img">
+			<img class="img-vannghe" src="vannghe.JPG">
+			<img class="img-dabanh" src="dabanh.JPG">
+			<img class="img-huychuong" src="huychuongbongda.jpg">
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+
+  <!-- Phần "CLB Thể Thao" -->
+  <div class="container1">
+    <div class="img1">
+        <div class="cell_img1">
+            <img src="banh.png">
+            <img src="badminton.png">
+            <img src="basketball.png">
+            <img src="volleyball.png">
         </div>
     </div>
-
-    <div class="content-section">
-        <div class="cell_img">
-            <img src="anh5.JPG" alt="Hình ảnh thành tích">
-        </div>
-        <div class="text-content">
-            <h3>Học siêu - Chơi đỉnh</h3>
-            <p>Các thành tích đạt được:</p>
-            <ul>
-                <li>01 giải Nhì HSG cấp tỉnh, 1 giải Ba HSG cấp tỉnh Hóa</li>
-                <li>01 HCV, 2HCB Olympic cấp tỉnh môn Hóa </li>
-                <li>01 Giải ba môn Bóng Chuyền nữ</li>
-                <li>01 Giải nhì Hội thi Biểu diễn Văn Nghệ</li>
-            </ul>
-        </div>
+    <div class="text">
+        <h3>CLB Thể Thao</h3>
+        <ul>
+            <li>Bóng đá</li>
+            <li>Bóng chuyền</li>
+            <li>Bóng rổ</li>
+            <li>Cầu lông</li>
+        </ul>
     </div>
-
-    <div class="content-section reverse">
-        <div class="text-content">
-            <h3>CLB Thể thao</h3>
-            <p>Các môn thể thao trong CLB:</p>
-            <ul>
-                <li>Bóng đá</li>
-                <li>Bóng chuyền</li>
-            </ul>
-            <a href="thethao.html" class="btn">Chi tiết</a>
-        </div>
-        <div class="cell_img">
-            <img src="anh7.JPG" alt="Hình ảnh thể thao">
-        </div>
+    <div class="separator"></div> <!-- Gạch ngang -->
+    <button class="btn-circle" onclick="location.href='thetheo.html'">
+        ⚽
+    </button>
     </div>
+</div>
 
-    <div class="content-section">
-        <div class="cell_img">
-            <img src="anh8.JPG" alt="Hình ảnh nghệ thuật">
-        </div>
-        <div class="text-content">
-            <h3>CLB Nghệ thuật</h3>
-            <p>Các lĩnh vực nghệ thuật:</p>
-            <ul>
-                <li>Đánh đàn</li>
-                <li>Nhảy,múa</li>
-            </ul>
-            <a href="nghethuat.html" class="btn">Chi tiết</a>
-        </div>
+
+  <!-- Phần "CLB Nghệ thuật" -->
+  <div class="picture">
+	<div class="text">
+	  <h3>CLB Nghệ Thuật</h3>
+	  <ul>
+		<li>Mĩ Thuật</li>
+		<li>Nhiếp Ảnh</li>
+		<li>Âm Nhạc</li>
+		<li>Khiêu Vũ</li>
+	  </ul>
+	</div>
+	<div class="separator"></div> <!-- Gạch ngang -->
+    <button class="btn-circle" onclick="location.href='nghethuat.html'">
+        ✏️
+    </button>
+	<div class="call">
+	  <img class="img-mythuat" src="mythuat.jpg">
+	  <img class="img-amnhac" src="amnhac.jpg">
+	</div>
+  </div>
+
+  <!-------------------->
+  <div class="footer-container">
+    <div class="contact-info">
+        <ul>
+            <li>Điện Thoại: 0867489322</li>
+            <li>Website: <a href="index.html" class="link">CLB Ngoại Khoá THPT Krong Bông</a></li>
+        </ul>
     </div>
+    <p class="copyright">&copy; 2025 12A4_NHOM 4.</p>
+</div>
 
-    <footer>
-        <div class="footer-container">
-            <p>Liên hệ:</p>
-            <ul>
-                <li>Điện thoại: 0943201646</li>
-                <li>Fanpage tham gia: <a href="https://www.facebook.com/profile.php?id=100089453567444" class="link">Đoàn trường THPT Krông Bông</a></li>
-            </ul>
-        </div>
-    </footer>
+
 </body>
 </html>
-
-

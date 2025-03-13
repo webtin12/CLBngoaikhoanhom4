@@ -1,0 +1,324 @@
+ .banner {
+padding-top: 12rem; /* Tạo khoảng cách trên */
+padding-bottom: 12rem;/* Tạo khoảng cách dướidưới */
+text-align: center !important;/* Căn giữa chữ */
+color: red !important;/* Màu chữ */
+}
+.banner h1 {
+    font-size: 28px; /* Kích thước chữ */
+    font-weight: bold; /* Làm đậm chữ */
+    text-align: center; /* Căn giữa chữ */
+    padding: 15px; /* Tạo khoảng cách */
+}
+.banner {
+    position: relative;/* Định vị tương đối */
+    text-align: center;/* Căn giữa chữ */
+    padding: 50px;/* Tạo khoảng cách */
+    background-image: url('nen2.jpg'); /* Đường dẫn ảnh */
+    background-size: cover; /* Hiển thị ảnh đầy đủ */
+    background-position: center;/* Hiển thị ảnh giữa */
+    background-repeat: no-repeat;/* Không lặp lại ảnh */
+}
+
+.slogan {
+text-align: center !important;/* Căn giữa chữ */
+width: 100%;/* Chiều rộng */
+}
+.row {
+display: flex;/* Hiển thị flex */
+flex-wrap: wrap;/* Cho phép chữ xuống dòng */
+justify-content: space-between; /* Căn đều 2 bênbên */
+margin-top: -1; /* Tạo khoảng cách */
+max-width: 100%;/* Chiều rộng */
+padding-right: 3rem; padding-left: 3rem;/* Tạo khoảng cách */
+background-color: lightgrey;/* Màu nền */
+}
+
+.block_3 {flex:0 0 auto; width:30%;margin: 10px;}/* Kích thước block */
+.footer {
+    background-color: lightgrey; /* Màu nền */
+    margin: 1px; /* Tạo khoảng cách */
+    padding: 10px;/* Tạo khoảng cách */
+}/* Định dạng footer */
+.link {color: navy; text-align: left;}/* Định dạng link */
+.cell_text {
+    flex: 2;/* Chữ chiếm 2/3 */
+    padding: 20px;/* Tạo khoảng cách */
+   
+  }
+  
+  .cell_text h3  {
+    font-size: 30px;/* Kích thước chữ */
+    color: #000000;/* Màu chữ */
+    margin-bottom: 10px;/*  Tạo khoảng cách */
+    padding-left: -50;/* Tạo khoảng cách */
+  }
+  .cell_text p{
+    font-size: 20px;/* Kích thước chữ */
+  }
+  
+  .cell_text ul li {
+    font-size: 16px;/* Kích thước chữ */
+    margin: 5px 0;/* Tạo khoảng cách */
+    color: #000000;/* Màu chữ */
+  }
+/* Tạo layout ngang với chữ bên trái và ảnh bên phải */
+.wrapper {
+    display: flex;
+    justify-content: space-between; /* Đẩy chữ về bên trái, ảnh về bên phải */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 10px; /* Tạo khoảng cách giữa chữ và ảnh */
+    margin-top: 20px; /* Tạo khoảng cách giữa hình ảnh và banner */
+    margin-bottom: 40px; /* Khoảng cách giữa dòng trên và dòng dưới */
+}
+
+/* Chữ chiếm phần bên trái */
+.cell_text {
+    flex: 1; /* Chữ sẽ chiếm phần không gian còn lại */
+    max-width: 80%; /* Giới hạn chiều rộng của phần chữ */
+}
+
+/* Hiển thị ảnh trên cùng một hàng */
+.cell_img {
+    display: flex;
+    gap: 10px; /* Khoảng cách giữa các ảnh */
+}
+
+/* Kích thước ảnh */
+.img-vannghe {
+    width: 250px;
+}
+
+.img-dabanh {
+    width: 250px;
+}
+
+.img-huychuong {
+    width: 200px;
+}
+
+/*----------*/
+.container1 {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa hình ảnh và chữ */
+    margin-bottom: 30px; /* Khoảng cách giữa dòng trên và dòng dưới */
+}
+
+/* Hình ảnh bên trái */
+.img1 {
+    flex-shrink: 0; /* Giữ nguyên kích thước, không cho co lại */
+}
+
+.cell_img1 {
+    display: flex;
+    gap: 10px; /* Khoảng cách giữa các hình */
+}
+
+/* Điều chỉnh kích thước từng ảnh */
+.cell_img1 img {
+    width: 200px; /* Điều chỉnh kích thước chung */
+    height: auto;
+}
+/* Định dạng tiêu đề */
+.text h3 {
+    font-size: 29px; /* Chỉnh cỡ chữ tiêu đề */
+    color: #000000; /* Màu chữ */
+    margin-bottom: 10px;
+}
+
+/* Chữ bên phải */
+.text {
+    flex: 1; /* Chữ chiếm phần còn lại */
+    font-size: 23px; /* Điều chỉnh kích thước chữ */
+}
+.clb-container {
+    display: flex;/* Hiển thị flex */
+    align-items: center;/* Căn giữa theo chiều dọc */
+    justify-content: space-between;/* Căn đều 2 bên */
+    width: 80%;/* Chiều rộng */
+    max-width: 800px;/* Chiều rộng tối đa */
+    margin: auto;  /* Căn giữa */
+}
+
+.clb-text {
+    flex-grow: 1;/* Chữ chiếm phần còn lại */
+}
+
+.separator {
+    width: 3px;/* Độ rộng */
+    height: 140px;/* Chiều cao */
+    background-color: black;  /* Màu nền */
+    margin: 0 30px;/* Tạo khoảng cách */
+}
+
+.btn-circle {
+    width: 80px;  /* Kích thước lớn hơn */
+    height: 80px;/* Kích thước lớn hơn */
+    background-color:  lightgrey;/* Màu nền */
+    color: white;/* Màu chữ */
+    font-size: 36px;/* Kích thước chữ */
+    border: none;/* Không viền */
+    border-radius: 50%;/* Làm tròn */
+    cursor: pointer;/* Con trỏ */
+    transition: all 0.3s ease;/* Hiệu ứng */
+    display: flex;/* Hiển thị flex */
+    align-items: center;/* Căn giữa theo chiều dọc */
+    justify-content: center;/* Căn giữa theo chiều ngang */
+    margin-right: 20px;/* Tạo khoảng cách */
+}
+
+.btn-circle:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+
+
+/*--------------------*/ 
+
+  .picture {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Chia đều khoảng cách giữa chữ và ảnh */
+    gap: 20px; /* Khoảng cách giữa chữ và ảnh */
+    margin-bottom: 40px; /* Khoảng cách giữa dòng trên và dòng dưới */
+}
+
+/* Chữ bên trái */
+.text {
+    flex: 1; /* Chữ chiếm phần bên trái */
+    max-width: 40%; /* Giới hạn chiều rộng chữ */
+}
+
+/* Hình ảnh bên phải */
+.call {
+    display: flex;
+    gap: 10px; /* Khoảng cách giữa các ảnh */
+}
+
+/* Điều chỉnh kích thước riêng từng ảnh */
+.img-mythuat {
+    width: 350px;
+}
+
+.img-amnhac {
+    width: 300px;
+}
+
+/*footer */
+
+.footer-container {
+    display: flex;/* Hiển thị flex */
+    justify-content: space-between;/* Căn đều 2 bên */
+    align-items: center;/* Căn giữa theo chiều dọc */
+    background-color: gainsboro;/* Màu nền */
+    padding: 10px 20px;/* Tạo khoảng cách */
+}
+
+.contact-info {
+    flex: 1;/* Chữ chiếm phần còn lại */
+}
+
+.copyright {
+    white-space: nowrap;/* Không tự động xuống dòng */
+    margin-left: 20px;/* Tạo khoảng cách */
+}
+
+
+
+/*------------thetheo.css-------*/
+
+/* Layout 2x2 */
+.clb-list {
+    display: grid;/* Hiển thị grid */
+    grid-template-columns: repeat(2, 1fr);/* Chia 2 cột bằng nhau */
+    gap: 20px;/* Khoảng cách giữa các box */
+    justify-content: center;/* Căn giữa theo chiều ngang */
+    align-items: center;/* Căn giữa theo chiều dọc */
+}
+
+.clb-item {
+    background: white;/* Màu nền */
+    padding: 20px;/* Tạo khoảng cách */
+    border-radius: 10px; /* Làm tròn góc */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);/* Đổ bóng */
+    transition: 0.3s;/* Hiệu ứng */
+    text-align: center;/* Căn giữa chữ */
+}
+
+.clb-item:hover {
+    transform: translateY(-5px);/* Hiệu ứng khi rê chuột vào */
+}
+
+.clb-item img {
+    width: 80px;  /* Đặt kích thước cố định */
+    height: 80px; /* Giữ ảnh vuông */
+    object-fit: contain; /* Giữ nguyên tỉ lệ ảnh */
+    border-radius: 50%; /* Làm tròn ảnh */
+    border: 3px solid #ddd; /* Viền nhẹ */
+    padding: 5px;
+    background-color: white; /* Nền ảnh */
+}
+
+.clb-container h2 {
+    width: 300px; /* Giới hạn chiều rộng để chữ tự động xuống dòng */
+    line-height: 1.2; /* Điều chỉnh khoảng cách dòng */
+}
+
+
+
+/* Tạo khoảng cách giữa các box và header */
+.clb-container {
+    margin-top: 40px; /* Tạo khoảng cách với header */
+}
+
+/* Tạo khoảng cách giữa box và tiêu đề */
+.clb-list {
+    margin-left: 200px; /* Điều chỉnh khoảng cách sang phải */
+    margin-top: 10px;  /* Đảm bảo box không quá sát tiêu đề */
+}
+
+
+
+/* Icon */
+.icon {
+    width: 80px;/* Kích thước */
+    height: 80px;/* Kích thước */
+    border-radius: 50%;/* Làm tròn */
+    display: flex;/* Hiển thị flex */
+    align-items: center;/* Căn giữa theo chiều dọc */
+    justify-content: center;/* Căn giữa theo chiều ngang */
+    margin: 0 auto 10px;/* Tạo khoảng cách */
+    background: #ddd;/* Màu nền */
+}
+
+.icon img {
+    width: 60px;/* Kích thước */
+    height: 60px;/* Kích thước */
+    object-fit: contain;/* Giữ nguyên tỉ lệ */
+}
+
+/* Màu sắc từng icon */
+.green { background: #34c759; }
+.blue { background: #007aff; }
+.pink { background: #ff2d55; }
+.orange { background: #ff9500; }
+
+/* ===== Footer ===== */
+.footer-container {
+    background: #979797;/* Màu nền */
+    color: rgb(0, 0, 0);/* Màu chữ */
+    padding: 20px;/* Tạo khoảng cách */
+    margin-top: 30px;/* Tạo khoảng cách */
+    font-weight: bold;/* Làm đậm chữ */
+}
+
+.contact-info ul {
+    list-style: none;/* Ẩn dấu chấm */
+}
+
+.contact-info a {
+    color: #000000;/* Màu chữ */
+    text-decoration: none;/* Ẩn gạch chân */
+}
